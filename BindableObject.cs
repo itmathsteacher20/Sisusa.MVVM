@@ -29,13 +29,15 @@ namespace Sisusa.MVVM
         /// <param name="backingField">The backing field of the property.</param>
         /// <param name="value">The new value of the property.</param>
         /// <param name="propertyName">The name of the property whose valeu is being changed.</param>
-        protected void SetProperty<T>(ref T backingField, T value, [CallerMemberName]string propertyName = "")
+        protected bool SetProperty<T>(ref T backingField, T value, [CallerMemberName]string propertyName = "")
         {
             if (!Equals(backingField, value))
             {
                 backingField = value;
                 OnPropertyChanged(propertyName);
+                return true;
             }
+            return false; //equal no need to change or fire propertyChanged
         }
     }
 }

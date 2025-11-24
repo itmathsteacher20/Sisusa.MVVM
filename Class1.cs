@@ -25,14 +25,15 @@
             {
                 var oldValue = backingField;
                 backingField = newValue;
-                //_undoActions.Enqueue(() => { _backingField = oldValue});
-
                 if (!IsDirty)
                     IsDirty = true;
             }
         } 
     }
-
+    
+    /// <summary>
+    /// Specifies an object that supports undoing actions.
+    /// </summary>
     public interface IUndoableAction
     {
         void Undo();

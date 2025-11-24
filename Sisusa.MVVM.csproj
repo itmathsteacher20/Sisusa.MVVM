@@ -9,6 +9,18 @@
     <Description>Small collection of utility classes for implementing the Model View ViewModel pattern. Contains only the core abstract classes - not a framework!</Description>
     <Copyright>(c) T. Dlamini</Copyright>
     <RepositoryType>git</RepositoryType>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageTags>Sisusa;MVVM;ViewModel;</PackageTags>
+    <PackageReleaseNotes>Initial release. Minimal base classes (BindableObject, ViewModelBase, RelayCommand).</PackageReleaseNotes>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
