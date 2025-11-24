@@ -1,0 +1,91 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Documents\\GitHub\\Sisusa.MVVM\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1381DA1E-EE72-2509-51F9-359A9939E3E4}|Sisusa.MVVM.csproj|e:\\documents\\github\\sisusa.mvvm\\sisusa.mvvm.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{1381DA1E-EE72-2509-51F9-359A9939E3E4}|Sisusa.MVVM.csproj|solutionrelative:sisusa.mvvm.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1381DA1E-EE72-2509-51F9-359A9939E3E4}|Sisusa.MVVM.csproj|e:\\documents\\github\\sisusa.mvvm\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1381DA1E-EE72-2509-51F9-359A9939E3E4}|Sisusa.MVVM.csproj|solutionrelative:class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1381DA1E-EE72-2509-51F9-359A9939E3E4}|Sisusa.MVVM.csproj|e:\\documents\\github\\sisusa.mvvm\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1381DA1E-EE72-2509-51F9-359A9939E3E4}|Sisusa.MVVM.csproj|solutionrelative:relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1381DA1E-EE72-2509-51F9-359A9939E3E4}|Sisusa.MVVM.csproj|e:\\documents\\github\\sisusa.mvvm\\bindableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1381DA1E-EE72-2509-51F9-359A9939E3E4}|Sisusa.MVVM.csproj|solutionrelative:bindableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{73068c07-fba1-453f-99ae-6edf972119b2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Sisusa.MVVM",
+              "DocumentMoniker": "E:\\Documents\\GitHub\\Sisusa.MVVM\\Sisusa.MVVM.csproj",
+              "RelativeDocumentMoniker": "Sisusa.MVVM.csproj",
+              "ToolTip": "E:\\Documents\\GitHub\\Sisusa.MVVM\\Sisusa.MVVM.csproj",
+              "RelativeToolTip": "Sisusa.MVVM.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-24T11:04:05.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BindableObject.cs",
+              "DocumentMoniker": "E:\\Documents\\GitHub\\Sisusa.MVVM\\BindableObject.cs",
+              "RelativeDocumentMoniker": "BindableObject.cs",
+              "ToolTip": "E:\\Documents\\GitHub\\Sisusa.MVVM\\BindableObject.cs",
+              "RelativeToolTip": "BindableObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T09:40:37.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "E:\\Documents\\GitHub\\Sisusa.MVVM\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "RelayCommand.cs",
+              "ToolTip": "E:\\Documents\\GitHub\\Sisusa.MVVM\\RelayCommand.cs",
+              "RelativeToolTip": "RelayCommand.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAuwHcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T08:29:08.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "E:\\Documents\\GitHub\\Sisusa.MVVM\\Class1.cs",
+              "RelativeDocumentMoniker": "Class1.cs",
+              "ToolTip": "E:\\Documents\\GitHub\\Sisusa.MVVM\\Class1.cs",
+              "RelativeToolTip": "Class1.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAmwCYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T06:53:11.54Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

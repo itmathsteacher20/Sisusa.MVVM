@@ -1,0 +1,11 @@
+E:\Documents\GitHub\Sisusa.MVVM\bin\Debug\net8.0\Sisusa.MVVM.deps.json
+E:\Documents\GitHub\Sisusa.MVVM\bin\Debug\net8.0\Sisusa.MVVM.dll
+E:\Documents\GitHub\Sisusa.MVVM\bin\Debug\net8.0\Sisusa.MVVM.pdb
+E:\Documents\GitHub\Sisusa.MVVM\obj\Debug\net8.0\Sisusa.MVVM.GeneratedMSBuildEditorConfig.editorconfig
+E:\Documents\GitHub\Sisusa.MVVM\obj\Debug\net8.0\Sisusa.MVVM.AssemblyInfoInputs.cache
+E:\Documents\GitHub\Sisusa.MVVM\obj\Debug\net8.0\Sisusa.MVVM.AssemblyInfo.cs
+E:\Documents\GitHub\Sisusa.MVVM\obj\Debug\net8.0\Sisusa.MVVM.csproj.CoreCompileInputs.cache
+E:\Documents\GitHub\Sisusa.MVVM\obj\Debug\net8.0\Sisusa.MVVM.dll
+E:\Documents\GitHub\Sisusa.MVVM\obj\Debug\net8.0\refint\Sisusa.MVVM.dll
+E:\Documents\GitHub\Sisusa.MVVM\obj\Debug\net8.0\Sisusa.MVVM.pdb
+E:\Documents\GitHub\Sisusa.MVVM\obj\Debug\net8.0\ref\Sisusa.MVVM.dll

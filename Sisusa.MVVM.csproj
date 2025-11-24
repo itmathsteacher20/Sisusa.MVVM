@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Sisusa MVVM Library</Title>
+    <Description>Small collection of utility classes for implementing the Model View ViewModel pattern. Contains only the core abstract classes - not a framework!</Description>
+    <Copyright>(c) T. Dlamini</Copyright>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
+</Project>
