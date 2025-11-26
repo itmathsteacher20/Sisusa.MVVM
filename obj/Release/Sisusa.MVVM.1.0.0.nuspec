@@ -12,7 +12,7 @@
     <releaseNotes>Initial release. Minimal base classes (BindableObject, ViewModelBase, RelayCommand).</releaseNotes>
     <copyright>(c) T. Dlamini</copyright>
     <tags>Sisusa MVVM ViewModel</tags>
-    <repository type="git" commit="760a49ba6c321cd125cbda64a02544ffecf938f0" />
+    <repository type="git" commit="3765e40515967926f997a111812073866da83f8e" />
     <dependencies>
       <group targetFramework="net8.0" />
     </dependencies>

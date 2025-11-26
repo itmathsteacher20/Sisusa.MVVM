@@ -17,7 +17,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Small collection of utility classes for implementing the Model View ViewModel pat" +
     "tern. Contains only the core abstract classes - not a framework!")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+760a49ba6c321cd125cbda64a02544ffecf938f0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3765e40515967926f997a111812073866da83f8e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Sisusa.MVVM")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Sisusa.MVVM")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

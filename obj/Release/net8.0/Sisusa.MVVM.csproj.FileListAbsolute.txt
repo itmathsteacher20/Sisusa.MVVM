@@ -9,3 +9,4 @@ E:\Documents\GitHub\Sisusa.MVVM\obj\Release\net8.0\Sisusa.MVVM.dll
 E:\Documents\GitHub\Sisusa.MVVM\obj\Release\net8.0\refint\Sisusa.MVVM.dll
 E:\Documents\GitHub\Sisusa.MVVM\obj\Release\net8.0\Sisusa.MVVM.pdb
 E:\Documents\GitHub\Sisusa.MVVM\obj\Release\net8.0\ref\Sisusa.MVVM.dll
+E:\Documents\GitHub\Sisusa.MVVM\obj\Release\net8.0\Sisusa.MVVM.sourcelink.json

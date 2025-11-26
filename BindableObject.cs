@@ -6,7 +6,7 @@ namespace Sisusa.MVVM
     /// <summary>
     /// An object that can be bound to and notifies when its properties change.
     /// </summary>
-    public abstract class BindableObject : INotifyPropertyChanged
+    public abstract class BindableObject : INotifyPropertyChanged, IDisposable
     {
         /// <summary>
         /// The event fired when a watched property changes its value.
@@ -38,6 +38,20 @@ namespace Sisusa.MVVM
                 return true;
             }
             return false; //equal no need to change or fire propertyChanged
+        }
+
+        public void Dispose()
+        {
+            if (PropertyChanged != null)
+            {
+                foreach (var d in PropertyChanged.GetInvocationList())
+                {
+                    PropertyChanged -= (PropertyChangedEventHandler)d; //unsubscribe all listeners
+                }
+                PropertyChanged = null;
+            }
+            
+            GC.SuppressFinalize(this);
         }
     }
 }

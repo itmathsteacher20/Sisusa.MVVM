@@ -1,7 +1,32 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\Documents\\GitHub\\Sisusa.MVVM\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1381DA1E-EE72-2509-51F9-359A9939E3E4}|Sisusa.MVVM.csproj|e:\\documents\\github\\sisusa.mvvm\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{1381DA1E-EE72-2509-51F9-359A9939E3E4}|Sisusa.MVVM.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1381DA1E-EE72-2509-51F9-359A9939E3E4}|Sisusa.MVVM.csproj|e:\\documents\\github\\sisusa.mvvm\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1381DA1E-EE72-2509-51F9-359A9939E3E4}|Sisusa.MVVM.csproj|solutionrelative:viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1381DA1E-EE72-2509-51F9-359A9939E3E4}|Sisusa.MVVM.csproj|e:\\documents\\github\\sisusa.mvvm\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1381DA1E-EE72-2509-51F9-359A9939E3E4}|Sisusa.MVVM.csproj|solutionrelative:class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1381DA1E-EE72-2509-51F9-359A9939E3E4}|Sisusa.MVVM.csproj|e:\\documents\\github\\sisusa.mvvm\\bindableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1381DA1E-EE72-2509-51F9-359A9939E3E4}|Sisusa.MVVM.csproj|solutionrelative:bindableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1381DA1E-EE72-2509-51F9-359A9939E3E4}|Sisusa.MVVM.csproj|e:\\documents\\github\\sisusa.mvvm\\interactions\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1381DA1E-EE72-2509-51F9-359A9939E3E4}|Sisusa.MVVM.csproj|solutionrelative:interactions\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1381DA1E-EE72-2509-51F9-359A9939E3E4}|Sisusa.MVVM.csproj|e:\\documents\\github\\sisusa.mvvm\\interactions\\inotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1381DA1E-EE72-2509-51F9-359A9939E3E4}|Sisusa.MVVM.csproj|solutionrelative:interactions\\inotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +34,93 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{73068c07-fba1-453f-99ae-6edf972119b2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "E:\\Documents\\GitHub\\Sisusa.MVVM\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "E:\\Documents\\GitHub\\Sisusa.MVVM\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-26T11:25:51.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BindableObject.cs",
+              "DocumentMoniker": "E:\\Documents\\GitHub\\Sisusa.MVVM\\BindableObject.cs",
+              "RelativeDocumentMoniker": "BindableObject.cs",
+              "ToolTip": "E:\\Documents\\GitHub\\Sisusa.MVVM\\BindableObject.cs",
+              "RelativeToolTip": "BindableObject.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAwDAAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T10:58:06.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ViewModelBase.cs",
+              "DocumentMoniker": "E:\\Documents\\GitHub\\Sisusa.MVVM\\ViewModelBase.cs",
+              "RelativeDocumentMoniker": "ViewModelBase.cs",
+              "ToolTip": "E:\\Documents\\GitHub\\Sisusa.MVVM\\ViewModelBase.cs",
+              "RelativeToolTip": "ViewModelBase.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwB4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T10:57:57.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "E:\\Documents\\GitHub\\Sisusa.MVVM\\Class1.cs",
+              "RelativeDocumentMoniker": "Class1.cs",
+              "ToolTip": "E:\\Documents\\GitHub\\Sisusa.MVVM\\Class1.cs",
+              "RelativeToolTip": "Class1.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T10:14:52.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "INotificationService.cs",
+              "DocumentMoniker": "E:\\Documents\\GitHub\\Sisusa.MVVM\\Interactions\\INotificationService.cs",
+              "RelativeDocumentMoniker": "Interactions\\INotificationService.cs",
+              "ToolTip": "E:\\Documents\\GitHub\\Sisusa.MVVM\\Interactions\\INotificationService.cs",
+              "RelativeToolTip": "Interactions\\INotificationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T10:14:42.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "E:\\Documents\\GitHub\\Sisusa.MVVM\\Interactions\\Class1.cs",
+              "RelativeDocumentMoniker": "Interactions\\Class1.cs",
+              "ToolTip": "E:\\Documents\\GitHub\\Sisusa.MVVM\\Interactions\\Class1.cs",
+              "RelativeToolTip": "Interactions\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T08:18:41.389Z",
+              "EditorCaption": ""
             }
           ]
         }
