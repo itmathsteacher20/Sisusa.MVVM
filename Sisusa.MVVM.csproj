@@ -11,9 +11,11 @@
     <RepositoryType>git</RepositoryType>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageTags>Sisusa;MVVM;ViewModel;</PackageTags>
-    <PackageReleaseNotes>Initial release. Minimal base classes (BindableObject, ViewModelBase, RelayCommand).</PackageReleaseNotes>
-    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReleaseNotes>Fixed RelayCommand to allow raising of CanExecuteChanged Event, making it easier to requery executability of the command.</PackageReleaseNotes>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+    <RepositoryUrl>https://github.com/itmathsteacher20/Sisusa.MVVM</RepositoryUrl>
+    <VersionPrefix>1.0.0.2</VersionPrefix>
   </PropertyGroup>
 
   <ItemGroup>

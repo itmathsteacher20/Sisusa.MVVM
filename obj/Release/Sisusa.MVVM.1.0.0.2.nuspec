@@ -2,14 +2,14 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>Sisusa.MVVM</id>
-    <version>1.0.0</version>
+    <version>1.0.0.2</version>
     <title>Sisusa MVVM Library</title>
     <authors>Sisusa.MVVM</authors>
-    <license type="expression">MIT</license>
-    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <license type="expression">Apache-2.0</license>
+    <licenseUrl>https://licenses.nuget.org/Apache-2.0</licenseUrl>
     <readme>README.md</readme>
     <description>Small collection of utility classes for implementing the Model View ViewModel pattern. Contains only the core abstract classes - not a framework!</description>
-    <releaseNotes>Added Coordinator, interaction interfaces.</releaseNotes>
+    <releaseNotes>Fixed RelayCommand to allow raising of CanExecuteChanged Event, making it easier to requery executability of the command.</releaseNotes>
     <copyright>(c) T. Dlamini</copyright>
     <tags>Sisusa MVVM ViewModel</tags>
     <repository type="git" url="https://github.com/itmathsteacher20/Sisusa.MVVM" commit="6847f52ac5c8285f266b5e9c936139443bffca02" />

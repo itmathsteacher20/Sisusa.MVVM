@@ -55,7 +55,7 @@ namespace Sisusa.MVVM
         /// <summary>
         /// Fires the CanExecuteChanged event to signal that the ability to execute the command may have changed.
         /// </summary>
-        protected void RaiseCanExecuteChanged()
+        public void RaiseCanExecuteChanged()
         {
             CanExecuteChanged?.Invoke(this, EventArgs.Empty);
         }
@@ -85,6 +85,7 @@ namespace Sisusa.MVVM
         {
             _execute = execute ?? throw new ArgumentNullException(nameof(execute), "Action to be executed must be given.");
             _canExecute = canExecute;
+            
         }
 
         /// <summary>
@@ -113,7 +114,7 @@ namespace Sisusa.MVVM
         /// <summary>
         /// Fires the CanExecuteChanged event to signal that the ability to execute the command may have changed.
         /// </summary>
-        protected void RaiseCanExecuteChanged()
+        public void RaiseCanExecuteChanged()
         {
             CanExecuteChanged?.Invoke(this, EventArgs.Empty);
         }
