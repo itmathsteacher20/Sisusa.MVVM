@@ -22,6 +22,14 @@
         Task<string?> PromptAsync(string message);
 
         /// <summary>
+        /// As the user for input of the specified type.
+        /// </summary>
+        /// <typeparam name="T">The type of input to get from user.</typeparam>
+        /// <param name="message">Message explaining the input required.</param>
+        /// <returns>Task containing the input acquired from the user (if any).</returns>
+        Task<T?> PromptAsync<T>(string message);
+
+        /// <summary>
         /// Ask the user to confirm an action.
         /// </summary>
         /// <param name="message">Explain the action being confirmed.</param>

@@ -2,6 +2,7 @@
 
 A lightweight, flexible MVVM toolkit for .NET UI applications (WPF, WinUI, Avalonia). Sisusa.MVVM provides minimal scaffolding to implement MVVM, while keeping your architecture modular and testable. You can adopt as little or as much as you need.
 
+> This is NOT a framework. Simple collection of utility classes for the MVVM pattern - pick and choose but remember these are not tested for 'prod'.
 ---
 
 ## Table of Contents
@@ -45,7 +46,7 @@ Include the namespaces you need:
 
 ```csharp
 using Sisusa.MVVM;
-using Sisusa.MVVM.Interaction;
+using Sisusa.MVVM.Interactions;
 ```
 
 ---
@@ -80,6 +81,16 @@ public class MainViewModel : ViewModelBase
 }
 ```
 
+### IErrorHandler
+A simple interface implemented by error handlers.
+Handling an error can include:
+- Logging
+- Reporting
+- Marshaling upwards
+
+The `IErrorHandler` interface has one method `Handle(Exception)` .
+
+
 ### RelayCommand
 
 Simplifies binding of user actions (buttons, menu items) to ViewModel methods.
@@ -93,6 +104,28 @@ private void OnSubmit()
 }
 ```
 
+### AsyncRelayCommand
+
+Simplifies binding of user actions (buttons, menu items) to asynchronous ViewModel methods.
+Forces all async methods to take a `CancellationToken`. Ideally, such methods must make use of the Token and not 
+simply accept it for signature compliance. This makes it possible to cancel the command action by calling
+`AsyncRelayCommand.Cancel` if needed.
+
+```csharp
+private readonly IErrorHandler errorHandler;
+
+.
+.
+.
+
+public ICommand SubmitCommand => CreateAsyncCommand(OnSubmitAsync, errorHandler, CanSubmit);
+
+private Task OnSubmitAsync(CancellationToken token)
+{
+   //submission logic that say, calls an api
+}
+```
+
 ---
 
 ## Interaction Services
@@ -101,8 +134,26 @@ Keep your ViewModels UI-agnostic while still requesting user interactions.
 
 ### Available Interactions
 
-* PickFile / PickFolder / PickColor / PickFont
-* Confirm / Inform
+* PickFile
+  To allow the user to choose a file from the file system.
+
+*  PickFolder
+  To help the user choose a folder from the file system.
+
+* PickColor / PickFont
+  To help the user pick a color or font.
+
+* Confirm
+  To ask the user for confirmation of an action.
+
+* Inform
+ To notify/inform the user of something that has happened, status of an action, etc.
+
+* Prompt
+To ask the user to provide some input `Task<string?> PrompAsync(string description)` or `Task<T?> PromptAsync<T?>(string)` depending on whether you
+require `string` or `T` input from the user. 
+
+NB: All these methods are `Task` returning methods to allow for async operation.
 
 ### Example
 

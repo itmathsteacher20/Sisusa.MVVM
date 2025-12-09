@@ -11,11 +11,12 @@
     <RepositoryType>git</RepositoryType>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageTags>Sisusa;MVVM;ViewModel;</PackageTags>
-    <PackageReleaseNotes>Fixed RelayCommand to allow raising of CanExecuteChanged Event, making it easier to requery executability of the command.</PackageReleaseNotes>
+    <PackageReleaseNotes>Added error handler interface, async relay commands.</PackageReleaseNotes>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+	<PackageVersion>1.2.0</PackageVersion>
     <RepositoryUrl>https://github.com/itmathsteacher20/Sisusa.MVVM</RepositoryUrl>
-    <VersionPrefix>1.0.0.2</VersionPrefix>
+    <VersionPrefix>1.0.1.2</VersionPrefix>
   </PropertyGroup>
 
   <ItemGroup>

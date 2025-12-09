@@ -1,4 +1,6 @@
 # ignore the .vs folder
 .vs/
+obj/
+.idea/
 
 

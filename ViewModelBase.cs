@@ -29,4 +29,9 @@ public abstract class ViewModelBase : BindableObject
     {
         return new RelayCommand<T>(action, canExecute);
     }
+
+    protected static ICommand CreateAsyncCommand(Func<CancellationToken, Task> action, IErrorHandler errorHandler, Func<bool>? predicate = null)
+    {
+        return new AsyncRelayCommand(action, errorHandler, predicate);
+    }
 }
